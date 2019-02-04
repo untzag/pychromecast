@@ -25,5 +25,10 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules'
-    ]
+    ],
+    entry_points={
+        'console_scripts': [
+            'pychromecast = pychromecast.__main__:main'
+        ]
+    },
 )
